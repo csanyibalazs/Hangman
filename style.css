@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(136, 139, 137);
+}
+
+#game-container{
+    text-align: center;
+}
+
+canvas{
+    background-color: rgb(241, 237, 237) ;
+    width: 600;
+    height: 400;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#word-container{
+    margin-top: 30px;
+    font-size: 40px;
+    text-decoration: underline;
+    white-space: pre;
+}
+
+#word-container .word-letter{
+    padding: 10px;
+}
+
+#button-container{
+    margin: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+}
+
+#button-container .letter-button{
+    background-color: rgb(245, 245, 245);
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+#button-container .letter-button:hover{
+    cursor: pointer;
+    background-color: rgb(200, 200, 200);
+}
+
+#button-container .letter-button:active{
+    background-color: rgb(180, 180, 180);
+}
+
+#new-game-btn{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(245, 245, 245);
+    display: none;
+}
+
+#new-game-btn:hover{
+    cursor: pointer;
+    background-color: rgb(200, 200, 200);
+}
+
+#new-game-btn:active{
+    background-color: rgb(180, 180, 180);
+}
